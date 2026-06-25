@@ -1,0 +1,11 @@
+# Backend local files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+chatbot.db
+*.db
+.env
+.env.*
+!.env.example
+.pytest_cache/

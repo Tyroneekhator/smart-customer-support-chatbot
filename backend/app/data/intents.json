@@ -1,0 +1,195 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "keywords": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "how are you"
+      ],
+      "responses": [
+        "Hello! Welcome to CookieBot. How can I help you today?",
+        "Hi there! I can help you with our menu, prices, opening hours, delivery, and orders."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "keywords": [
+        "bye",
+        "goodbye",
+        "see you",
+        "later",
+        "quit",
+        "exit"
+      ],
+      "responses": [
+        "Goodbye! Thanks for visiting CookieBot.",
+        "See you later! Have a lovely day."
+      ]
+    },
+    {
+      "tag": "menu",
+      "keywords": [
+        "availability",
+        "available",
+        "available cookies",
+        "cookie menu",
+        "do you have",
+        "list cookies",
+        "menu",
+        "products",
+        "show me cookies",
+        "show menu",
+        "show products",
+        "what can i buy",
+        "what can i order",
+        "what cookies",
+        "what do you have",
+        "what do you sell"
+      ],
+      "responses": [
+        "I can show you the current menu with prices. You can also ask for a specific cookie or place an order."
+      ]
+    },
+    {
+      "tag": "price",
+      "keywords": [
+        "cheap",
+        "cost",
+        "expensive",
+        "how much",
+        "how much are",
+        "how much is",
+        "price",
+        "price list",
+        "prices",
+        "tell me the price",
+        "what is the price"
+      ],
+      "responses": [
+        "I can tell you the current prices. Ask about a specific cookie or ask for the full price list."
+      ]
+    },
+    {
+      "tag": "opening_hours",
+      "keywords": [
+        "open",
+        "opening",
+        "hours",
+        "close",
+        "closing",
+        "time",
+        "today",
+        "tomorrow"
+      ],
+      "responses": [
+        "We are open Monday to Friday from 7:00 AM to 4:00 PM."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "keywords": [
+        "delivery",
+        "deliver",
+        "shipping",
+        "send",
+        "bring",
+        "how long",
+        "arrive"
+      ],
+      "responses": [
+        "We offer local delivery. Most cookie orders are delivered within 30 minutes."
+      ]
+    },
+    {
+      "tag": "contact",
+      "keywords": [
+        "contact",
+        "phone",
+        "email",
+        "address",
+        "location",
+        "where are you",
+        "where is your shop"
+      ],
+      "responses": [
+        "You can contact us by phone on 01234 567890 or visit our cookie shop during opening hours."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "keywords": [
+        "complain",
+        "complaint",
+        "bad",
+        "wrong",
+        "problem",
+        "issue",
+        "unhappy",
+        "late",
+        "missing"
+      ],
+      "responses": [
+        "I am sorry to hear that. Please describe the issue clearly, and a staff member will review it."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "keywords": [
+        "thanks",
+        "thank you",
+        "appreciate",
+        "cheers"
+      ],
+      "responses": [
+        "You are welcome!",
+        "No problem. Happy to help!"
+      ]
+    },
+    {
+      "tag": "order_help",
+      "keywords": [
+        "how do i order",
+        "place an order",
+        "make an order",
+        "order help",
+        "can i order",
+        "how to buy"
+      ],
+      "responses": [
+        "To place an order, type the quantity and cookie name. For example: I want 2 Chocolate Chip Cookies and 1 Macaron Cookie."
+      ]
+    },
+    {
+      "tag": "confirm_order",
+      "keywords": [
+        "confirm",
+        "yes",
+        "yes please",
+        "place order",
+        "complete order",
+        "go ahead"
+      ],
+      "responses": [
+        "Your order has been confirmed. Thank you for shopping with CookieBot."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "keywords": [
+        "cancel",
+        "cancel order",
+        "remove order",
+        "delete order",
+        "stop order"
+      ],
+      "responses": [
+        "Your pending order has been cancelled."
+      ]
+    }
+  ]
+}
