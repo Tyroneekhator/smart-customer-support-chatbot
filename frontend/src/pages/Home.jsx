@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { API_BASE_URL } from "../services/api";
 
 function Home() {
   return (
@@ -21,11 +22,11 @@ function Home() {
             </Link>
 
             <Link to="/admin" className="secondary-link">
-              Open Admin Dashboard
+              Admin Login
             </Link>
 
             <a
-              href="http://127.0.0.1:8000/docs"
+              href={`${API_BASE_URL}/docs`}
               target="_blank"
               rel="noreferrer"
               className="secondary-link"
@@ -43,7 +44,7 @@ function Home() {
             <li>Product-specific price replies</li>
             <li>Cart-style multi-item orders</li>
             <li>Order confirmation and cancellation</li>
-            <li>Admin dashboard with live stats</li>
+            <li>Protected admin dashboard with live stats</li>
             <li>Order status and product management</li>
           </ul>
         </div>

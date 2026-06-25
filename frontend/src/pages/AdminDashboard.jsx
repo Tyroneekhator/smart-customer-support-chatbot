@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { getDashboardSummary } from "../services/api";
+import { API_BASE_URL, getDashboardSummary } from "../services/api";
 
 function currency(value) {
   return `£${Number(value || 0).toFixed(2)}`;
@@ -229,7 +229,7 @@ function AdminDashboard() {
             <Link to="/admin/orders">Update order statuses</Link>
             <Link to="/admin/products">Add or edit products</Link>
             <Link to="/admin/chats">Review recent chat sessions</Link>
-            <a href="http://127.0.0.1:8000/docs" target="_blank" rel="noreferrer">
+            <a href={`${API_BASE_URL}/docs`} target="_blank" rel="noreferrer">
               Open Swagger API docs
             </a>
           </div>
